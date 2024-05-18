@@ -1,7 +1,7 @@
-package com.fiap.burguer.config;
+package com.fiap.burguer.adapter.driver.config;
 
-import com.fiap.burguer.repository.ProductRepository;
-import com.fiap.burguer.service.ProductService;
+import com.fiap.burguer.adapter.driven.repository.ProductRepository;
+import com.fiap.burguer.core.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,8 +1,8 @@
-package com.fiap.burguer.service;
+package com.fiap.burguer.core.service;
 
-import com.fiap.burguer.entities.Product;
-import com.fiap.burguer.enums.CategoryProduct;
-import com.fiap.burguer.repository.ProductRepository;
+import com.fiap.burguer.adapter.driven.entities.Product;
+import com.fiap.burguer.adapter.driven.enums.CategoryProduct;
+import com.fiap.burguer.adapter.driven.repository.ProductRepository;
 
 import java.util.List;
 

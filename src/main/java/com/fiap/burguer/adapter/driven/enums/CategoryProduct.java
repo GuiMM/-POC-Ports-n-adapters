@@ -1,4 +1,4 @@
-package com.fiap.burguer.enums;
+package com.fiap.burguer.adapter.driven.enums;
 
 public enum CategoryProduct {
     DRINK,

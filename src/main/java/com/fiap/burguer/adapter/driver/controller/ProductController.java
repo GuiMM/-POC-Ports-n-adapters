@@ -1,8 +1,8 @@
-package com.fiap.burguer.controller;
+package com.fiap.burguer.adapter.driver.controller;
 
-import com.fiap.burguer.entities.Product;
-import com.fiap.burguer.enums.CategoryProduct;
-import com.fiap.burguer.service.ProductService;
+import com.fiap.burguer.adapter.driven.entities.Product;
+import com.fiap.burguer.adapter.driven.enums.CategoryProduct;
+import com.fiap.burguer.core.service.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 

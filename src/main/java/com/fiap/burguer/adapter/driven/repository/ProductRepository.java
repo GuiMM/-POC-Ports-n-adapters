@@ -1,7 +1,7 @@
-package com.fiap.burguer.repository;
+package com.fiap.burguer.adapter.driven.repository;
 
-import com.fiap.burguer.entities.Product;
-import com.fiap.burguer.enums.CategoryProduct;
+import com.fiap.burguer.adapter.driven.entities.Product;
+import com.fiap.burguer.adapter.driven.enums.CategoryProduct;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
