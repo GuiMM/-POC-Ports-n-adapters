@@ -12,5 +12,8 @@
         <module name="core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fiap-sistema-pedidos" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>

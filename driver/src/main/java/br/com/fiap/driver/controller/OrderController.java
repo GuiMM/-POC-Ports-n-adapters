@@ -9,7 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class OrderController {
 
+
     HelloServiceInterface helloService;
+
+    OrderController(HelloServiceInterface helloService){
+        this.helloService = helloService;
+    }
 
     @GetMapping("/hello")
     ResponseEntity hello() {

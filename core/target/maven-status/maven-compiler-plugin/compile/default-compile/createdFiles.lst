@@ -1,1 +1,2 @@
-br\com\fiap\core\App.class
+br\com\fiap\core\service\HelloService.class
+br\com\fiap\core\ports\HelloServiceInterface.class

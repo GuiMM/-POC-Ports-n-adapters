@@ -1,0 +1,33 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.1.0 http://maven.apache.org/xsd/assembly-2.1.0.xsd">
+    <id>production-artifact</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <dependencySets>
+        <dependencySet>
+            <useProjectArtifact>false</useProjectArtifact>
+            <outputDirectory>shared</outputDirectory>
+            <unpack>false</unpack>
+            <excludes>
+                <exclude>br.com.fiap:core:*</exclude>
+                <exclude>br.com.fiap:driver:*</exclude>
+                <exclude>br.com.fiap:driven:*</exclude>
+            </excludes>
+        </dependencySet>
+    </dependencySets>
+    <moduleSets>
+        <moduleSet>
+            <useAllReactorProjects>true</useAllReactorProjects>
+            <includes>
+                <include>br.com.fiap:core:jar:</include>
+                <include>br.com.fiap:driver:jar:</include>
+                <include>br.com.fiap:driven:jar:</include>
+            </includes>
+            <binaries>
+                <unpack>false</unpack>
+                <includeDependencies>true</includeDependencies>
+            </binaries>
+        </moduleSet>
+    </moduleSets>
+</assembly>
