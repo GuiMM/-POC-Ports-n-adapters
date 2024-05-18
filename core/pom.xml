@@ -21,6 +21,18 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-el</artifactId>
+      <version>10.1.20</version>
+      <scope>compile</scope>
+    </dependency>
+      <dependency>
+          <groupId>com.example</groupId>
+          <artifactId>demo</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+          <scope>compile</scope>
+      </dependency>
   </dependencies>
 
   <build>
