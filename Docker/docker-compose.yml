@@ -21,7 +21,6 @@ services:
       - sql_network
     volumes:
       - ./database:/var/opt/mssql/data
-
 networks:
   sql_network:
     driver: bridge
